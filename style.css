@@ -1,0 +1,133 @@
+body{
+    margin : 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+@font-face{
+    font-family:"TmoneyRoundWindRegular";
+    src:url("TmoneyRoundWindRegular.ttf") format("truetype");    font-style:normal;
+    font-style:normal;
+    font-weight:normal; 
+}
+@font-face{
+    font-family:"TmoneyRoundWindExtraBold";
+    src:url("TmoneyRoundWindExtraBold.ttf") format("truetype");    font-style:normal;
+    font-style:normal;
+    font-weight:normal; 
+}
+
+.header_main{
+    display: block;
+    margin-bottom: 20px;
+    margin-left:45%;
+    
+}
+
+.header_member{
+    margin-left:80%;
+    margin-bottom:-20px;
+    margin-top:20px;
+    font-size : 12px;
+    font-family:"TmoneyRoundWindRegular";
+}
+
+.navbar {
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    padding : 2px 430px;
+    font-family:"TmoneyRoundWindExtraBold";
+    
+}
+
+.navbar__logo {
+    font-size : 24px;
+    color:white;
+}
+.navbar_logo li{
+    color: #d49466;
+}
+
+.navbar_menu{
+    display : flex;
+    list-style: none;
+    padding-left: 0;
+   
+}
+
+.navbar_menu li {
+    padding : 4px 15px;
+    
+}
+
+.navbar_menu li:hover {
+    background-color:#FAAC58;
+    border-radius: 4px; 
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: colum;
+        align-items : flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      
+    }
+    .navbar_menu li {
+        width:100%;
+        text-align: center;
+        
+    }
+}
+    
+    .header_member{
+        display : flex;
+        list-style: none;
+        padding-left: 0;
+        
+    }
+    .header_member li {
+        padding : 8px 12px;
+        
+    }
+    .header_member li:hover {
+        background-color:#BDBDBD;
+        border-radius: 4px; 
+    }
+    
+    @media screen and (max-width: 768px){
+        
+
+        .header_member{
+            flex-direction: colum;
+            align-items : flex-start;
+            padding: 8px 24px;
+        }
+        .header_member{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .header_member {
+            width:100%;
+            text-align: center;
+            
+        }
+    }
+    .main_sceen{
+        font-family:"TmoneyRoundWindRegular";
+        Font-size:20px;
+        margin-left:50%;
+        margin-top:7%;
+    }
+    
+
