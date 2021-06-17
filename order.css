@@ -1,3 +1,4 @@
+/*고정 항목*/
 body{
     margin : 0;
 }
@@ -198,15 +199,11 @@ ul.navbar_menu li:hover ul.second_menu3{
         }
     }
      /*main*/
-    .main_sceen{
+    .main{
         font-family:"TmoneyRoundWindRegular";
         Font-size:20px;
-        margin-left:35%;
-        margin-top:5%;
-    }
-    /*image*/
-    .image {
         margin-left:10%;
+        margin-top:2%;
     }
     
     /*footer*/
@@ -214,7 +211,5 @@ ul.navbar_menu li:hover ul.second_menu3{
         font-size : 15px;
         font-family:"TmoneyRoundWindRegular";
         margin-left:1%;
-        margin-top:11%;
-        
+        margin-top:8%;
     }
-
