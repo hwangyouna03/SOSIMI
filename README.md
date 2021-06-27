@@ -1,6 +1,19 @@
 # SOSIMI
 2021 IT쇼 소시미 
+:소심한 사람들을 위한 서브웨이 주문 도우미 웹
+<ul>
+  <li>
+    사용한 언어: HTML5, CSS3, JavaScript, MySQL, JSP, Java
+  </li>
+  <li>
+    기획 및 개발 기간 : 2021.03.18 ~ 2021.06.22
+  </li>
+  <li>
+    기타 설명 : 서브웨이 가격 및 칼로리 정보 확인 및 주문 방법, 주문 시뮬레이션 기능이 담겨있는 웹사이트
+  </li>
+</ul>
+ 
 
-HTML5, CSS3, JavaScript, MySQL, JSP, Java
 
-소심한 사람들을 위한 서브웨이 주문 도우미 웹
+
+
