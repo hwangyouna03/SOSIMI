@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="panel" style="background-image: url('img/배경.png'); background-size: 100%;">
+    <div id="title">치즈 선택</div>
+    <div id="contents">
+      <section id="item">
+        <img src="img/아메리칸.png"><br>
+        <input type="radio" name="cheese" value=" 아메리칸" checked="checked">아메리칸치즈
+      </section>
+      <section id="item">
+        <img src="img/슈레드.png"><br>
+        <input type="radio" name="cheese" value=" 슈레드">슈레드치즈
+      </section>
+      <section id="item">
+        <img src="img/모짜렐라.png"><br>
+        <input type="radio" name="cheese" value=" 모짜렐라">모짜렐라치즈
+      </section>
+      <section id="item">
+        <img src="img/치즈제외.png"><br>
+        <input type="radio" name="cheese" value=" 빼고">치즈 제외
+      </section>
+      <div style="clear:both;"></div>
+      <button id="nextBtn" onclick="chooseCheese()"><a href="topping.html">다음</a></button>
+    </div>
+  </div>
+  <script src="js\script.js"></script>
+</body>
