@@ -3,7 +3,7 @@
 :소심한 사람들을 위한 서브웨이 주문 도우미 웹
 <ul>
   <li>
-    사용한 언어: HTML5, CSS3, JavaScript, MySQL, JSP
+    사용한 언어: HTML5, CSS3, JavaScript, MySQL, JSP, Java
   </li>
   <li>
     기획 및 개발 기간 : 2021.03.18 ~ 2021.06.22
